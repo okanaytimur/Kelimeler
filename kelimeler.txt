@@ -1,0 +1,14 @@
+In this article, we will dive deep into how to split an iOS application into smaller modules. We’re going to leverage XcodeGen, Clean Architecture principles, Xcode templates and more. For user interface, we will use SwiftUI, and for navigation, UIKit.
+
+In short, this is what you will have learned by the end of the article:
+
+How to divide an iOS application into layers in accordance with the Clean Architecture approach.
+How to prevent circular dependencies.
+How to use XcodeGen for app modularization.
+What is the Interface Modules approach and how to implement navigation in modularized apps.
+How to generate dependency diagrams with simple command line invocations using GraphViz.
+Other iOS modularization tools available.
+The completed demo project is available on GitHub.
+
+Demo App
+Let’s see the demo app we are going to modularize:
