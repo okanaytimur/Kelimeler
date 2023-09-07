@@ -1,5 +1,8 @@
 import csv
-
+#Verilen metni kelimelere bölüp satır satır yazar
+#kelimeler.txt dosyasının içerisime çevirmek istediğiniz metni yapıştırıp kaydedin
+#Programı çalıştırın CSV dosyasını Google Sheet e yükleyerek =GOOGLETRANSLETE() fonksiyonu ile çevirebilirsiniz
+#  
 dizi=[]
 with open('kelimeler.txt','r') as file:
     for line in file:
